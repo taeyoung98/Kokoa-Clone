@@ -1,0 +1,47 @@
+body {
+  height: 100vh;
+  background-color: #f5f5f5;
+  display: flex;
+  /* body 아래 div들이 한 세로축에서 정렬되야함 */
+  flex-direction: column; /* main axis를 row에서 column으로 변경*/
+  align-items: center; /* 가로축에서 가운데 */
+  justify-content: center; /* 세로축에서 가운데 */
+}
+body > div:first-child {
+  height: 115px;
+}
+h1,
+.color {
+  font-family: Georgia;
+}
+.row {
+  height: 343px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.box {
+  height: 310px;
+  width: 180px;
+  margin: 8px;
+  border: 6px solid white;
+  display: flex;
+}
+.first .box:first-child {
+  background-color: tomato;
+}
+.first .box:last-child {
+  background-color: teal;
+}
+.second .box:first-child {
+  background-color: burlywood;
+}
+.second .box:last-child {
+  background-color: thistle;
+}
+.color {
+  height: 100px;
+  width: 100%;
+  margin-top: 15px;
+  background-color: white;
+}
