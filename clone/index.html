@@ -1,0 +1,45 @@
+<!-- 단축키 ![enter] -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 단축키 link:css[enter] -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <!-- To Do: Wifi Icon -->
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <!-- Battery Icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">If you have a Kokoa Acoount, log in with your email or phone number.</p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log in" />
+      <a href="#">Find Kokoa Account or Password</a>
+    </form>
+
+    <!-- 스크립트는 body태그 닫기 직전, 항상 마지막에 위치 -->
+    <script src="https://kit.fontawesome.com/7a833a0102.js" crossorigin="anonymous"></script>
+  </body>
+</html>
