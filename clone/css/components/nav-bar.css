@@ -1,0 +1,52 @@
+.nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  /**
+  * width와 padding을 둘 다 설정해주면
+  * 설정한 width 길이에 padding 길이가 추가됨
+  * 아래 코드는 css에 
+  * "내가 padding을 줘도 신경쓰지마. 내 box 사이즈를 늘리지 말아줘."
+  * "box 사이즈 작아져도 상관없어." 
+  */
+  box-sizing: border-box;
+  border-top: 1px solid lightgrey;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  color: #2e363e;
+  position: relative;
+}
+.nav__link .fa-lg {
+  font-size: 25px;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 500;
+  font-size: 13px;
+  position: absolute;
+  left: 17px;
+  bottom: 9px;
+}
+.nav__dot {
+  background-color: tomato;
+  width: 5.5px;
+  height: 5.5px;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  left: 25px;
+  bottom: 22px;
+}
