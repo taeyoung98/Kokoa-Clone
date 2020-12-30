@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500;600;700;900&display=swap");
+@import "./variables.css";
+
+body {
+  position: relative;
+  margin: 28px 0px;
+  width: 400px;
+  height: 880px;
+  border: 3px solid grey;
+  display: flex;
+  flex-direction: column;
+  font-family: "Heebo", sans-serif;
+}
+/* menu bar */
+.menu-bar {
+  height: 13.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--yellow);
+}
+.menu-bar__column {
+  display: flex;
+  margin: -20px 10px 0px 10px;
+}
+.menu-bar__column .material-icons {
+  font-size: 30px;
+}
+.menu-bar__column span {
+  font-size: 21px;
+  font-weight: 600;
+}
+/* search bar */
+.search-bar {
+  width: 370px;
+  height: 55px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0px 10px 20px #f0f0f0;
+  position: absolute;
+  top: 85px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.search-bar__column {
+  font-weight: bold;
+  color: var(--grey);
+}
+.search-bar__column span {
+  font-size: 16px;
+  margin: 0px 40px;
+}
+.search-bar__column .fa-search {
+  font-size: 18px;
+  margin: 0px 20px;
+}
+/* Book of the day */
+.today-book {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.today-book__header {
+  font-size: 24px;
+  font-weight: 800;
+  padding-top: 20px;
+  margin-bottom: 17px;
+}
+.today-book__column {
+  display: flex;
+}
+.today-book__cover {
+  background-color: burlywood;
+  display: flex;
+  margin-right: 20px;
+}
+.today-book__cover img {
+  width: 120px;
+  height: 185px;
+  border-radius: 10px;
+}
+.today-book__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.today-book__title {
+  font-size: 22px;
+  font-weight: bold;
+  height: 19%;
+}
+.today-book__author {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--grey);
+  height: 19%;
+}
+.today-book__rating {
+  display: flex;
+  height: 19%;
+}
+.today-book__rating .fa-star {
+  font-size: 13px;
+  color: var(--yellow);
+  padding-right: 4px;
+}
+.today-book__rating .fa-star:last-child {
+  color: var(--grey);
+}
+.today-book__genre {
+  display: flex;
+  height: 25%;
+  align-items: center;
+}
+.today-book__genre span {
+  font-size: 13px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 85px;
+  height: 25px;
+  margin-right: 10px;
+  background-color: var(--grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.today-book__action {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 35%;
+}
+.today-book__action__mark {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: var(--yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 50px;
+}
+.today-book__action__now {
+  font-size: 12px;
+  color: white;
+  background-color: black;
+  width: 118px;
+  height: 38px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Top Adventures */
+.top {
+  height: 25%;
+  width: 105%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.top__header {
+  font-size: 22px;
+  font-weight: bold;
+  /* margin-top: 50px; */
+}
+.top__column {
+  display: flex;
+  justify-content: space-between;
+}
+.top__a-book {
+  display: flex;
+  flex-direction: column;
+}
+.top__cover img {
+  width: 80px;
+  height: 130px;
+  border-radius: 5px;
+}
+.top__rating .fa-star {
+  font-size: 2px;
+  color: var(--yellow);
+  padding-right: -5px;
+}
+.top__rating .fa-star:last-child {
+  color: var(--grey);
+}
+/* Popular authors */
+.authors {
+  height: 27%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 15px;
+}
+.authors__header {
+  font-size: 35px;
+  font-weight: bold;
+}
+.authors__column {
+  display: flex;
+}
+.authors__photo img {
+  width: 120px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.authors__data {
+  margin-top: -30px;
+  display: flex;
+  flex-direction: column;
+}
+.authors__name {
+  font-size: 20px;
+}
+.authors__description {
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--grey);
+  margin-top: -15px;
+}
