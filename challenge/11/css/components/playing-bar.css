@@ -1,0 +1,26 @@
+.playing-bar {
+  height: 17%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.playing-bar-icon:first-child,
+.playing-bar-icon:last-child {
+  font-size: 20px;
+  color: #cecece;
+  font-weight: 800;
+}
+.playing-bar-icon:nth-child(2),
+.playing-bar-icon:nth-child(4) {
+  font-size: 40px;
+}
+
+.playing-bar-icon:nth-child(3) {
+  font-size: 90px;
+  /* box-shadow: 0px 3px 5px 5px grey; */
+}
+
+.playing-bar-icon:nth-child(3):visited {
+  value: dd;
+}

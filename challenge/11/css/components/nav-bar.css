@@ -1,0 +1,10 @@
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 25px 10px 25px;
+}
+
+.nav__link .material-icons {
+  font-size: 30px;
+}

@@ -1,0 +1,51 @@
+.playlist-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 10px 20px 0px 20px;
+}
+
+.song {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.song:nth-child(2),
+.song:hover {
+  border-radius: 20px;
+  box-shadow: 0px 5px 20px 15px #f2f2f2;
+  cursor: pointer;
+}
+
+.song__column {
+  display: flex;
+  align-items: center;
+  margin: 16px 25px;
+}
+
+.song__album-cover {
+  width: 54px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+.song__text {
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 600;
+}
+.song__singer {
+  font-size: 14px;
+  color: var(--grey);
+}
+.song__title {
+  font-size: 18px;
+}
+
+.song .song__column:nth-child(2) i {
+  font-size: 30px;
+  color: var(--grey);
+}

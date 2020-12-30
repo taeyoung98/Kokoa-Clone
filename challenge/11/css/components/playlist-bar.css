@@ -1,0 +1,30 @@
+.playlist {
+  position: relative;
+}
+.play-bar {
+  position: absolute;
+  width: 370px;
+  bottom: 10;
+  margin-left: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--black);
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0px 10px 20px 5px #dfdfdf;
+}
+
+.song__column:first-child {
+  margin-left: 30px;
+}
+
+.play-bar .song__column {
+  width: 35%;
+  justify-content: space-between;
+}
+.play-bar__icon {
+  font-size: 23px;
+}
+.play-bar__icon:nth-child(2) {
+  font-size: 43px;
+}
