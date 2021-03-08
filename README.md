@@ -10,7 +10,7 @@ https://repl.it/@taeyoung98/KokoaClone1
 
 ### Goal
 
-<img src="https://i.imgur.com/O9LlXq3.png">
+<img src="https://i.imgur.com/O9LlXq3.png" width=600>
 
 <br>
 
@@ -18,4 +18,4 @@ https://repl.it/@taeyoung98/KokoaClone1
 
 https://repl.it/@taeyoung98/KokoaClone3
 
-<img src="challenge/7/result2.png">
+<img src="challenge/7/result2.png" width=600>
