@@ -19,3 +19,17 @@ https://repl.it/@taeyoung98/KokoaClone1
 https://repl.it/@taeyoung98/KokoaClone3
 
 <img src="challenge/7/result2.png" width=600>
+
+<br>
+
+## Challenge Day8
+
+### Goal
+
+<img src="https://i.imgur.com/SuVjwwv.gif">
+
+<br>
+
+### My Second Result (21.03.09)
+
+https://repl.it/@taeyoung98/KokoaClone4
