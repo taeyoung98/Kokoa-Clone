@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Create An Account</h2>
+    <form>
+        <label for="first-name">First name
+            <input required id="first-name" placeholder="First name">
+        </label>
+        <label for="last-name">Last name
+            <input required id="last-name" placeholder="Last name" />
+        </label>
+        <label for="email">Email
+            <input required id="email" type="email" placeholder="Email" />
+        </label>
+        <label for="username">Username
+            <input required id="username" placeholder="Username" />
+        </label>
+        <label for="password">Password
+            <input required id="password" type="password" minlength="10" placeholder="Password" />
+        </label>
+        <label for="birth-date">Birth date
+            <input required id="birth-date" type="date" />
+        </label>
+        <label for="happy">How happy are you?
+            <input required id="happy" type="range" step="10" list="happy-options" />
+            <datalist id="happy-options">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="40"></option>
+                <option value="50"></option>
+                <option value="60"></option>
+                <option value="70"></option>
+                <option value="80"></option>
+                <option value="90"></option>
+                <option value="100"></option>
+            </datalist>
+        </label>
+        <label for="color">What is your fav. color?
+            <input required id="color" type="color" />
+        </label>
+        <input type="submit" value="Create Account" />
+    </form>
+</body>
+</html>
+
+<style>
+    label {
+        display: block;
+    }
+</style>
+
